@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="calculator.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-4"></div>
+				<div class="col-4">        
+					<div class="formstyle">
+						<form name="form1">
+			
+							<div><input id="calc" class="bg-dark text-white text-end mt-3" type="text" name="answer" style="width: 100%; height: 150px;" /></div>
+							<div class="row btnRow bg-dark py-3 gy-2 px-3 gx-0">
+								<div class="col-3">
+								<input type="button" id="myBtn" class="buton gray-buton" value="AC" onclick="form1.answer.value = ' ' " id="clear"/>
+							</div>
+							<div class="col-3">
+								<input id="myBtn" type="button" class="buton gray-buton" value="+/-" onclick="form1.answer.value += '' " />
+							</div>
+							<div class="col-3">
+								<input id="myBtn" type="button" class="buton gray-buton" value="%" onclick="form1.answer.value += '%' " />
+							</div>
+							<div class="col-3">
+								<input id="myBtn" type="button" class="buton yellow-buton" value="/" onclick="form1.answer.value += '/' " />
+							</div>
+							<div class="col-3">
+								<input id="myBtn" type="button" class="buton" value="7" onclick="form1.answer.value += '7' " />
+							</div>
+							<div class="col-3">
+								<input id="myBtn" type="button" class="buton" value="8" onclick="form1.answer.value += '8' " />
+							</div>
+							<div class="col-3">
+								<input id="myBtn" type="button" class="buton" value="9" onclick="form1.answer.value += '9' " />
+							</div>
+							<div class="col-3">
+								<input id="myBtn" type="button" class="buton yellow-buton" value="*" onclick="form1.answer.value += '*' " />
+							</div>
+							<div class="col-3">
+								<input id="myBtn" type="button" class="buton" value="4" onclick="form1.answer.value += '4' " />
+							</div>
+							<div class="col-3">
+								<input id="myBtn" type="button" class="buton" value="5" onclick="form1.answer.value += '5' " />
+							</div>
+							<div class="col-3">
+								<input id="myBtn" type="button" class="buton" value="6" onclick="form1.answer.value += '6' " />
+							</div>
+							<div class="col-3">
+								<input id="myBtn" type="button" class="buton yellow-buton" value="-" onclick="form1.answer.value += '-' " />
+							</div>	
+							<div class="col-3">
+								<input id="myBtn" type="button" class="buton" value="1" onclick="form1.answer.value += '1' " />
+							</div>
+							<div class="col-3">
+								<input id="myBtn" type="button" class="buton" value="2" onclick="form1.answer.value += '2' " />
+							</div>
+							<div class="col-3">
+								<input id="myBtn" type="button" class="buton" value="3" onclick="form1.answer.value += '3' " />
+							</div>
+							<div class="col-3">
+								<input id="myBtn" type="button" class="buton yellow-buton" value="+" onclick="form1.answer.value += '+' " />
+							</div>
+							
+							<div class="col-6">
+								<input id="myBtn" type="button" class=" buton-zero" value="0" onclick="form1.answer.value += '0' " />
+							</div>
+							<div class="col-3">
+								<input id="myBtn" type="button" class="buton" value="." onclick="form1.answer.value += '.' " />
+							</div>
+							<div class="col-3">
+								<input id="myBtn" type="button" class="buton yellow-buton"	 value="=" onclick="form1.answer.value = eval(form1.answer.value)"/>
+							</div>
+							
+							</div>
+
+						</form>
+					</div>
+				</div>
+				<div class="col-4"></div>
+
+			</div>
+		</div>
+
+	</body>
+
+	<script src="ca yellow-butonlculator.js"></script>
+</html>
