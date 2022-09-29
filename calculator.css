@@ -3,6 +3,10 @@
 	justify-content: center;
 }
 
+.btnRow {
+
+}
+
 .buton {
 	display: grid;
 	place-items: center;
@@ -11,6 +15,7 @@
 	height:50px;
 	background-color:gray;
 	border: none;
+	color: white;
 }
 
 .buton-zero {
@@ -21,6 +26,7 @@
 	height:50px;
 	background-color: gray;
 	border: none;
+	color: white;
 }
 
 .yellow-buton {
@@ -29,4 +35,5 @@
 
 .gray-buton {
 	background-color:#ccc;
+	color: black;
 }
