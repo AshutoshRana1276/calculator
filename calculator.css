@@ -37,3 +37,47 @@
 	background-color:#ccc;
 	color: black;
 }
+
+.screen {
+	width: 100%;
+	height: 150px;
+	font-size: 3rem;
+	border: none;
+}
+
+@media (max-width:900px){
+	body{
+		background-color: #212529;
+	}
+	.formstyle {
+		height: 100vh;
+		position: relative;
+	}
+	.btnRow{
+		position: absolute;
+		bottom: 2rem;
+		left: 0;
+		width: 100%;
+	}
+
+	.screen {
+		height: clamp(30vh,50vh,60vh);
+		font-size: 3.5rem;
+	}
+	.buton{
+		width: 70px;
+		height: 70px;
+		font-size: 2rem;
+		font-weight: 600;
+	}
+	.gray-buton{
+		font-weight: 400;
+	}
+	.buton-zero{
+		width: 165px;
+		height: 70px;
+		border-radius: 50px;
+		font-size: 2rem;
+		font-weight: 600;
+	}
+}
