@@ -75,7 +75,8 @@
 		font-size: 2rem;
 		font-weight: 600;
 		display: grid;
-		place-items: center;
+		justify-content: center;
+		align-items: center;
 	}
 	.gray-buton{
 		font-weight: 400;

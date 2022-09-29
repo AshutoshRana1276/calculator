@@ -3,9 +3,10 @@ function screenSize (){
 
 let size = btnRow.getBoundingClientRect();
 let heightBtnRow = size.height;
-let height = document.body.clientHeight;
+let height = window.innerHeight;
 
 document.querySelector(".screen").style.height = `${height - heightBtnRow}px`;
+document.body.style.height = `${height}px`;
 }
 
 screenSize();
