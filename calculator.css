@@ -10,6 +10,7 @@ body{
 }
 .formstyle{
 	background-color: black;
+	height: calc(100vh - env(safe-area-inset-bottom));
 }
 
 .btnRow {
