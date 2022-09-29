@@ -6,7 +6,7 @@ let heightBtnRow = size.height;
 let height = window.innerHeight;
 
 document.querySelector(".screen").style.height = `${height - heightBtnRow}px`;
-document.querySelector(".formstyle").style.minHeight = `${height}px`;
+document.querySelector(".formstyle").style.height = `${height}px`;
 console.log(height);
 }
 
