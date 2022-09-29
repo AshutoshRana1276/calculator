@@ -1,3 +1,9 @@
+html{
+	height: calc(100vh - env(safe-area-inset-bottom));
+}
+body{
+	height: calc(100vh - env(safe-area-inset-bottom));
+}
 .btnRow .col-3,.col-6{
 	display: flex;
 	justify-content: center;
@@ -54,7 +60,7 @@
 	body{
 		background-color: black;
 		/*min-height: 100vh;*/
-		height: calc(100vh - env(safe-area-inset-bottom));
+
 		/*min-height: -webkit-fill-available;*/
 	}
 	.formstyle {
