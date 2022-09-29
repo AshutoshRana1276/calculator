@@ -53,8 +53,9 @@
 @media (max-width:900px){
 	body{
 		background-color: black;
-		min-height: 100vh;
-		min-height: -webkit-fill-available;
+		/*min-height: 100vh;*/
+		height: calc(100vh - env(safe-area-inset-bottom));
+		/*min-height: -webkit-fill-available;*/
 	}
 	.formstyle {
 		height: 100vh;

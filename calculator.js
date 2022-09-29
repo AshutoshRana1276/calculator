@@ -7,6 +7,7 @@ let height = window.innerHeight;
 
 document.querySelector(".screen").style.height = `${height - heightBtnRow}px`;
 // document.body.style.minHeight = `${height}px`;
+// console.log(height);
 }
 
 screenSize();
