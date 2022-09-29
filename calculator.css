@@ -2,6 +2,9 @@
 	display: flex;
 	justify-content: center;
 }
+.formstyle{
+	background-color: black;
+}
 
 .btnRow {
 
@@ -43,11 +46,13 @@
 	height: 150px;
 	font-size: 3rem;
 	border: none;
+	background-color: black;
 }
 
 @media (max-width:900px){
 	body{
-		background-color: #212529;
+		background-color: black;
+		height: 100vh;
 	}
 	.formstyle {
 		height: 100vh;
@@ -69,6 +74,8 @@
 		height: 70px;
 		font-size: 2rem;
 		font-weight: 600;
+		display: grid;
+		place-items: center;
 	}
 	.gray-buton{
 		font-weight: 400;

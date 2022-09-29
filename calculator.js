@@ -1,12 +1,14 @@
-// function myFunction() {
-// 	const myCollection = document.getElementsByTagName("button");
-// 	for (let i=0; i<myCollection.length; i++){
-// 		myCollection[i].addEventListener('click',()=>{
+function screenSize (){
+	let btnRow = document.querySelector(".btnRow");
 
-// 		})
-// 		function mySecondFunction() {
-//   document.getElementById("demo").innerHTML += "Clicked!<br>";
-// }
+let size = btnRow.getBoundingClientRect();
+let heightBtnRow = size.height;
+let height = document.body.clientHeight;
 
-// 	}
+document.querySelector(".screen").style.height = `${height - heightBtnRow}px`;
+console.log(height - heightBtnRow);
+}
 
+screenSize();
+
+window.addEventListener("resize",screenSize);
